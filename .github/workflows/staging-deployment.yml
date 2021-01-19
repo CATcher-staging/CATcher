@@ -28,9 +28,3 @@ jobs:
           git fetch upstream
           git merge upstream/master --allow-unrelated-histories
           git push origin master -f
-      - name: Deploy on Web
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          npm install 
-          npm run deploy:web -- --repo=https://${{secrets.GH_TOKEN}}@github.com/CATcher-staging/CATcher.git
