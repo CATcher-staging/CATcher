@@ -2,10 +2,10 @@ import { Profile } from '../app/auth/profiles/profiles.component';
 
 export const AppConfig = {
   production: true,
-  clientId: '5e1ed08cff7f0de1d68d',
+  clientId: '0de5350d6f237eaa20f8',
   githubUrl: 'https://github.com',
-  accessTokenUrl: 'https://catcher-proxy.herokuapp.com/authenticate',
-  origin: 'https://CATcher-org.github.io',
+  accessTokenUrl: 'https://catcher-gatekeeper.herokuapp.com/authenticate',
+  origin: 'https://CATcher-staging.github.io',
   profiles: [
     <Profile>{
       profileName: 'CS2103/T Alpha Test',
