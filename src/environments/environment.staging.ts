@@ -5,7 +5,7 @@ export const AppConfig = {
   clientId: '0de5350d6f237eaa20f8',
   githubUrl: 'https://github.com',
   accessTokenUrl: 'https://catcher-gatekeeper.herokuapp.com/authenticate',
-  origin: 'https://CATcher-staging.github.io',
+  origin: 'https://catcher-staging.github.io',
   profiles: [
     <Profile>{
       profileName: 'CATcher',
